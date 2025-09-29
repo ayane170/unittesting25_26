@@ -8,4 +8,9 @@ public class MyFirstUnitTest {
     public void test() {
         Assertions.assertEquals(150, 50 * 3);
     }
+
+    @Test
+    public void test2() {
+        Assertions.assertEquals("abc","dit is abc teskt".substring(7,10));
+    }
 }
